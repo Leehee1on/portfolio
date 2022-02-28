@@ -1,0 +1,87 @@
+.section--info {
+  padding: 110px 20px 0;
+  position: relative;
+  margin-top: 50px;
+}
+.section--info .inner {
+  max-width: 1600px;
+  display: flex;
+  margin: 0 auto;
+}
+.section--info .wrapper {
+  margin-left: 10px;
+  flex: 60%;
+}
+.section--info .info-title {
+  font-size: 60px;
+  font-weight: 400;
+  color: #f1f2f3;
+}
+.section--info .info-subtitle {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #c1c2c3;
+}
+
+.section--info .info-desc {
+  margin-top: 50px;
+  font-size: 22px;
+  color: #c1c2c3;
+}
+.section--info .info-desc p {
+  margin-top: 30px;
+  font-weight: 300;
+}
+.section--info .info-image {
+  flex: 40%;
+  font-size: 300px;
+  color: #f1f1f1;
+  align-self: center;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1380px) {
+  .section--info {
+      padding: 90px 20px 0;
+  }
+  .section--info .info-title {
+      font-size: 45px;
+  }
+  .section--info .info-subtitle, .section--info .info-desc {
+      font-size: 20px;
+  }
+  .section--info .info-cards {
+      grid-template-columns: repeat(auto-fit, 25%);
+  }
+  .section--info .info-image {
+      font-size: 200px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .section--info .info-cards {
+      grid-template-columns: repeat(auto-fit, 32%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section--info .inner {
+      display: block;
+  }
+  .section--info .info-title {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 500;
+  }
+  .section--info .info-subtitle {
+      text-align: center;
+  }
+  .section--info .info-image {
+      display: none;
+  }
+  .section--info .info-cards {
+      grid-template-columns: repeat(auto-fit, 50%);
+  }
+}
