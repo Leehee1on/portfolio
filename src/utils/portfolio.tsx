@@ -15,9 +15,9 @@ export const info = {
   title: emoji("About Me 👾"),
   subTitle: emoji("🙍‍♂️ 안녕하세요! 프론트엔드 개발자 이희원입니다."),
   desc: [
-    emoji("• 2019년도에 개발 일을 처음으로 시작하여, 현재까지 개발일을 경험하였습니다."),
+    emoji("• 2019년에 개발의 첫 걸음을 내딛어, 현재까지 계속해서 소프트웨어 개발을 하고 있습니다."),
     emoji("• Typescript / React / React Native 를 다루는데 능숙하며, Android / IOS 배포 경험이 있습니다."),
-    emoji("• 백엔드 서버, DB 쪽 공부를 하고 있으며, 채팅서버를 만들어본 경험이 있습니다."),
+    emoji("• 백엔드 서버와 데이터베이스 관련 공부를 진행 중이며, 채팅 서버를 개발해 본 경험이 있습니다."),
     emoji("• 매일매일 성장하는 개발자가 되겠습니다.")
   ]
 };
@@ -50,13 +50,8 @@ export const experience = {
   title: "Work Experience",
   lists: [
     {
-      date: "2019.07 ~ 2019.11",
-      company: "피그말리온",
-      role: "Publisher"
-    },
-    {
-      date: "2019.11 ~ 2020.01",
-      company: "시즐",
+      date: "2022.03 ~ current",
+      company: "Encored Tech",
       role: "Front-End Developer"
     },
     {
@@ -65,9 +60,14 @@ export const experience = {
       role: "Front-End Developer"
     },
     {
-      date: "2022.03 ~ current",
-      company: "Encored Tech",
+      date: "2019.11 ~ 2020.01",
+      company: "시즐",
       role: "Front-End Developer"
+    },
+    {
+      date: "2019.07 ~ 2019.11",
+      company: "피그말리온",
+      role: "Publisher"
     }
   ],
   view: true
