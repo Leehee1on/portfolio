@@ -24,7 +24,7 @@ export default function Header() {
       <header className="header">
         <div className="header-logo">
           <span>&lt;</span>
-          <a href="#">LeeHeeWon</a>
+          <a href="#">HeeWon Lee</a>
           <span>&nbsp;/&gt;</span>
         </div>
         <div className="toggle-nav" onClick={onClickMenu}>

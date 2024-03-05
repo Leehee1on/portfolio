@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 
 export const greeting = {
-  username: "LeeHeeWon",
+  username: "HeeWon Lee",
   title: "안녕하세요, 풀스택이 되고싶은",
   role: "프론트엔드 개발자\n이희원입니다.",
   subTitle: "#책임감 #끈기있는 #열정 #소통",
