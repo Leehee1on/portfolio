@@ -16,7 +16,7 @@ export const info = {
   subTitle: emoji("🙍‍♂️ 안녕하세요! 프론트엔드 개발자 이희원입니다."),
   desc: [
     emoji("• 2019년도에 개발 일을 처음으로 시작하여, 현재까지 개발일을 경험하였습니다."),
-    emoji("• Tavascript / React / React Native 를 다루는데 능숙하며, Android / IOS 배포 경험이 있습니다."),
+    emoji("• Typescript / React / React Native 를 다루는데 능숙하며, Android / IOS 배포 경험이 있습니다."),
     emoji("• 백엔드 서버, DB 쪽 공부를 하고 있으며, 채팅서버를 만들어본 경험이 있습니다."),
     emoji("• 매일매일 성장하는 개발자가 되겠습니다.")
   ]
